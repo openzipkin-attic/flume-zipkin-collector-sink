@@ -1,10 +1,5 @@
 # flume-zipkin-collector-sink #
 
-Latest release available in Maven central: 2.4.1. You normally don't have to include this in
-a project through Maven but can download the flume distribution jar from [here](http://search.maven.org/#search%7Cga%7C1%7Cflume-zipkin-collector-sink)
-to add it to the Flume Agent class path.
-
-
 [Flume](http://flume.apache.org) Sink implementation that sends Flume Events that
 contain Spans to the Zipkin Collector.
 
@@ -23,6 +18,12 @@ in the Flume documentation](http://flume.apache.org/FlumeUserGuide.html#consolid
 In this set up you will typically have a Flume agent on every
 host that generates spans. This agent will collect the spans generated on localhost and submits
 them to a central Flume agent which will submit them to the Zipkin collector.
+
+
+## Install ##
+
+You normally don't have to include this in a project through Maven but can download the flume distribution jar from [here](http://search.maven.org/#search%7Cga%7C1%7Cflume-zipkin-collector-sink)
+to add it to the Flume Agent class path.
 
 ## Configuration ##
 
